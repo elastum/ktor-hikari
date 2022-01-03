@@ -3,11 +3,7 @@ ktor plugin for Hikari connection pool
 
 ## Installing
 
-
-## Example usage
-
 Gradle:
-
 ```kotlin
 repositories {
     mavenCentral()
@@ -20,6 +16,8 @@ dependencies {
     implementation("com.github.kibertoad:ktor-hikari:1.0.0")
 }
 ```
+
+## Example usage
 
 ```kotlin
 fun Application.configureDatabase() {
