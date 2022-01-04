@@ -52,8 +52,8 @@ fun Application.configureScheduling() {
     }
 
     schedule {
-        recurringJob("withdrawalStatusSync", "*/2 * * * *") {
-            executeWithdrawalStatusSyncJob()
+        recurringJob("userSync", "*/2 * * * *") {
+            // some recurring logic
         }
     }
 }
